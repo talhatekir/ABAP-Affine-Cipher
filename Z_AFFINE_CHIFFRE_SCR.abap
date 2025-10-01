@@ -1,0 +1,16 @@
+*&---------------------------------------------------------------------*
+*& Include          Z_AFFINE_CHIFFRE_SCR
+*&---------------------------------------------------------------------*
+SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME TITLE TEXT-001.
+PARAMETERS: p_txt TYPE string.
+SELECTION-SCREEN  END OF BLOCK b1.
+
+SELECTION-SCREEN BEGIN OF BLOCK b2 WITH FRAME TITLE TEXT-001.
+PARAMETERS: p_a TYPE i,
+            p_b TYPE i.
+SELECTION-SCREEN  END OF BLOCK b2.
+
+SELECTION-SCREEN BEGIN OF BLOCK b3 WITH FRAME TITLE TEXT-001.
+PARAMETERS: p_enc RADIOBUTTON GROUP g1 DEFAULT 'X',
+            p_dec RADIOBUTTON GROUP g1.
+SELECTION-SCREEN  END OF BLOCK b3.
